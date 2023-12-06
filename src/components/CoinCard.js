@@ -67,6 +67,7 @@ const UnknownCardBody = styled.div`
 
 const CoinImg = styled.img`
   height: 4.16rem;
+  clip-path: circle();
 `;
 
 const CoinText = styled.div`
