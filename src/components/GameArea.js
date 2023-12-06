@@ -163,7 +163,6 @@ const SelectCoinBtn = styled.div`
   border-radius: 4px;
   background: #1e8139;
   cursor: pointer;
-  margin-left: 3rem;
 `;
 
 const CoinBtnText = styled.div`
