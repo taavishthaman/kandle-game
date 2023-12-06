@@ -163,6 +163,7 @@ const SelectCoinBtn = styled.div`
   border-radius: 4px;
   background: #1e8139;
   cursor: pointer;
+  margin-left: 3rem;
 `;
 
 const CoinBtnText = styled.div`
@@ -322,7 +323,9 @@ function GameArea() {
                   src={allCoinData[index]["usersData"][0]["avatarImageUrl"]}
                 />
               </PlayerBg>
-              <PlayerText>You 🇮🇳</PlayerText>
+              <PlayerText>
+                {allCoinData[index]["usersData"][0]["userName"]} 🇮🇳
+              </PlayerText>
             </Player>
           </Players>
           <SelectCoinBtn>

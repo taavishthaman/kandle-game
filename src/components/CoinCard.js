@@ -234,7 +234,7 @@ function CoinCard({ type, data }) {
         <PlayerBg>
           <PlayerImgNtwrk src={data["avatarImageUrl"]} />
         </PlayerBg>
-        <PlayerText>{data["userName"]}</PlayerText>
+        <PlayerText>{data["userName"]} 🇮🇳</PlayerText>
       </PlayerStatus>
     </CoinCardContainer>
   );
